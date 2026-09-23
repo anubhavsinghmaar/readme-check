@@ -16,9 +16,15 @@ Describe a flow in plain English. Kane CLI runs it in real Chrome from your term
   <a href="https://discord.gg/SqVMtNeWEf"><img src="https://img.shields.io/badge/Discord-Join%20us-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
-<a href="https://www.producthunt.com/products/lambdatest?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_campaign=badge-kane-cli-2"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=1219199&theme=light&period=daily" alt="Kane CLI, #1 Product of the Day on Product Hunt" height="40"></a>
+<sub>FEATURED ON</sub>
 
-<!-- [TO CONFIRM] Same Product Hunt badge and link as testmuai.com/kane-cli today. -->
+<p>
+  <a href="https://www.producthunt.com/products/lambdatest?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_campaign=badge-kane-cli-2"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=1219199&theme=light&period=daily" alt="Kane CLI, #1 Product of the Day on Product Hunt" height="44"></a>
+  <a href="https://abacklaunch.com/"><img src="https://abacklaunch.com/badges/launched-on-outline.svg" alt="Kane CLI, launched on Aback Launch" height="44"></a>
+  <a href="https://www.agenthunter.io/?utm_source=badge&utm_medium=embed&utm_campaign=Kane%20CLI%20by%20TestMu%20AI"><img src="assets/featured-agenthunter.svg" alt="Kane CLI, Featured AI Agent on AgentHunter" height="44"></a>
+</p>
+
+<!-- The same three badges and links as the "Featured on" row on testmuai.com/kane-cli. Product Hunt and Aback Launch serve their own badge images. AgentHunter only offers an HTML badge, which GitHub strips, so assets/featured-agenthunter.svg recreates it with AgentHunter's logo. Commit that file with the README. -->
 
 [Website](https://www.testmuai.com/kane-cli/) · [Docs](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/README.md) · [Quickstart](#quickstart) · [Evidence viewer](https://evidence.lambdatest.com)
 

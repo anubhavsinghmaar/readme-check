@@ -303,6 +303,20 @@ Every `testmd run` saves its pack to `.testmuai/evidence/` in your project. Run 
 - **Variables and secrets.** Use `{{name}}` in a flow and mask secrets in logs: [variables](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/variables-and-context.md).
 - **Test Manager.** Every run uploads to Test Manager by default, with its pack attached: [Test Manager integration](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/test-manager-integration.md).
 
+## Built with Kane CLI
+
+69 teams entered the [Kane CLI Online Hackathon](https://www.testmuai.com/blog/kane-cli-hackathon-winners/) in August 2026. The brief: build a real app with any coding agent, and use Kane CLI to prove it works. The winners:
+
+| | Project | What it does |
+|---|---|---|
+| 1st | [demo.studio](https://github.com/SamFelix03/demo.studio) by Sam Felix | Give it a URL, a goal and the on-screen actions, and it returns a narrated demo video of the live product. Kane CLI is the hands on the page. |
+| 2nd | [GuardianKane](https://github.com/18Abhinav07/adventures-with-kane) by Abhinav | A verification loop around Claude Code "that refuses to let 'done' mean 'I say it's done'": a task counts as done only after Kane CLI replays its test in a real browser. |
+| 3rd | [KANE vs. ABLE](https://github.com/christinelall/kane-vs-able) by Christine Lall | One AI builds an escape room. Kane CLI has to escape it in a real browser to prove it can be solved. |
+
+More entries: [Signed Off](https://github.com/PhiBao/signed-off) · [LENS](https://github.com/Enoch208/lens) · [mutiny](https://github.com/sneg55/mutiny) · [Pactora](https://github.com/mrnetwork0001/Pactora) · [Playtest Studio](https://github.com/Jiyungi/playtest-studio) (Kane CLI Hack Day, San Francisco)
+
+Built something with Kane CLI? Share it in [Discussions](https://github.com/LambdaTest/kane-cli/discussions) under Show and tell.
+
 ## Contributing
 
 The CLI's source is not in this repo, but most of what makes Kane CLI useful to agents is. Good first contributions:

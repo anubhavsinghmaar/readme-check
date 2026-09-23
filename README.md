@@ -307,6 +307,32 @@ Every `testmd run` saves its pack to `.testmuai/evidence/` in your project. Run 
 - **Variables and secrets.** Use `{{name}}` in a flow and mask secrets in logs: [variables](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/variables-and-context.md).
 - **Test Manager.** Every run uploads to Test Manager by default, with its pack attached: [Test Manager integration](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/test-manager-integration.md).
 
+## What builders say
+
+Public posts by people outside TestMu AI, each linked to the original. Hackathon ties are marked.
+
+> My coding agent marked a task done. The chart it built drew the same data twice.
+>
+> So for the @testmuai Kane CLI hackathon I built a gate: Claude Code cannot stop until a real browser agrees. It placed 2nd.
+>
+> <sub>[Abhinav Pangaria](https://x.com/abhinavpangaria/status/2102238606538735640) on X, Sep 22, 2026 · 2nd place, Kane CLI Online Hackathon</sub>
+
+> for the recorded run, Kane caught a real broken task flow. Elenchos sent that evidence back to Gemini, the agent fixed the implementation, and Kane passed every acceptance criterion on the second attempt
+>
+> <sub>[Zephyr](https://x.com/Zephyr_cryt/status/2090682677720395889) on X, Aug 21, 2026 · Kane CLI Online Hackathon entrant</sub>
+
+> I wasn’t just asking an AI agent to build an e-commerce application and assuming everything worked.
+>
+> I used Kane as part of the process of checking real user flows in the browser.
+>
+> <sub>[Lammy.Sol](https://x.com/lammy_sol/status/2094763401037664391) on X, Sep 1, 2026</sub>
+
+> The build-fast, trust-slow gap is very real. I like how Kane CLI focuses not just on running tests, but on producing evidence teams can actually trust and share.
+>
+> <sub>[Hareesh Vemasani](https://www.producthunt.com/products/lambdatest/launches/kane-cli-2?page=3#comments) on Product Hunt, Aug 13, 2026</sub>
+
+<!-- Each quote was re-opened at its source and matched word for word on 2026-09-23. Posts by TestMu AI staff are excluded. Source list: kane cli website revamp/research-claude/F_kane_cli_testimonials/SUMMARY.md -->
+
 ## Built with Kane CLI
 
 69 teams entered the [Kane CLI Online Hackathon](https://www.testmuai.com/blog/kane-cli-hackathon-winners/) in August 2026. The brief: build a real app with any coding agent, and use Kane CLI to prove it works. The winners:

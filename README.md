@@ -62,15 +62,17 @@ An AI testing agent for developers, QA engineers and coding agents. Describe a u
 
 Kane CLI is an AI testing agent you use from your terminal, your coding agent or CI. You describe a user flow in plain English. Kane CLI tests your web app in real Chrome, or your mobile app on an iOS Simulator or Android Emulator: it clicks, types and checks each thing you asked for, and returns pass or fail.
 
-Every result, pass or fail, is saved as one `.evidence` file with each step, its screenshot, the console and network logs, and the verdict. Developers and their coding agents check a change before review. QA engineers test flows and report bugs without writing code. Anyone on the team can open the evidence.
+Every result, pass or fail, is saved as one `.evidence` file with each step, its screenshot, the console and network logs, and the verdict. Anyone on the team can open it:
+
+- **Developers and coding agents** check a change before review, and on every pull request.
+- **QA engineers** write test cases in plain English, replay them on every build, and report bugs with the evidence.
+- **Leads** see which requirements are proven, and which aren't yet.
 
 ## ⭐ Star Kane CLI
 
 <p align="center">
-  <img src="assets/placeholders/star-kane-cli.svg" alt="Placeholder for a 4 to 5 second GIF: the cursor clicks Star on this repo and the button turns to Starred" width="70%">
+  <img src="assets/star-kane-cli.gif" alt="Starring LambdaTest/kane-cli on GitHub: the cursor clicks Star and the button turns to Starred" width="100%">
 </p>
-
-<!-- [GIF · TO RECORD · 4 to 5 s · loops, no sound] Replace the placeholder: on this repo's page, the cursor moves to Star and clicks it, and the button turns to Starred. Record it on the real repo after the About text and topics are updated, with the real counts at the time. Do not stage the numbers. Export a GIF or animated WebP about 900 px wide and upload it through the GitHub web editor. GitHub does not autoplay or loop README videos, so an animated image is the way to get a silent loop. -->
 
 <p align="center"><sub>The <b>☆ Star</b> button is at the top of this page. One click.</sub></p>
 
@@ -218,7 +220,7 @@ Your agent installs Kane CLI, learns it from the skill, and checks UI changes in
 
 ## How it works
 
-A developer, a QA engineer or a coding agent describes the flow. Kane CLI tests it like a real user and saves the result as an evidence file. A pass is something anyone can check. A fail names the step and why, so whoever fixes it knows where to start.
+A developer, a QA engineer or a coding agent describes the flow. Kane CLI tests it like a real user and saves the result as an evidence file. A pass is something anyone can check. A fail names the step and why, so whoever fixes it knows where to start. Link tests to your requirements, and leads see which are proven and which aren't yet.
 
 ```mermaid
 %%{init: {'theme': 'neutral'}}%%
@@ -230,11 +232,13 @@ flowchart TD
     F["❌ <b>Fail</b> · exit 1<br/>evidence file: the failing step, its screenshot and why"]
     S["<b>Anyone can open the evidence</b><br/>PR comment · Test Manager · any browser"]
     X["A developer or coding agent<br/>reads the failing step and fixes the code"]
+    C["<b>Leads see coverage</b><br/>which requirements are proven, and which aren't yet"]
 
     A --> K --> V
     V -->|"pass"| P
     V -->|"fail"| F
     P --> S
+    S -->|"tests linked to requirements"| C
     F -->|"on the PR or the ticket"| X
     X -->|"test the same flow again"| K
 ```
@@ -335,7 +339,7 @@ One run, started from wherever you work, gives you everything the next person ne
 | 🔁 Keep regression flows | Commit `_test.md` files and run them as one suite with `kane-cli testrun run` | [Batch runs](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/testrun.md) |
 | 🔐 Test behind a sign-in | Put sign-in details in variables, and mark passwords as secrets so they are masked in logs | [Variables](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/variables-and-context.md) |
 | 🧮 Pull a value off a page | Say "store the price of the first item as 'price'", and it comes back in `run_end.final_state` | [Running tests](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/running-tests.md) |
-| 📄 Turn a PRD into tests and coverage | `kane-cli context ingest` → `design tests` → `testrun run` → `cover` | [Assurance](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/assurance/overview.md) |
+| 📄 Turn a PRD into tests and coverage | `kane-cli context ingest` → `context extract` → `design tests` → `testrun run` → `cover` | [Assurance](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/assurance/overview.md) |
 | 📱 Test a mobile app | Run the same kind of flow on an iOS Simulator or Android Emulator | [Mobile](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/mobile/overview.md) |
 | 🎭 Get Playwright code | Runs export Playwright code after their Test Manager upload, in Python by default or JavaScript. `kane-cli testmd export` regenerates it from a saved test | [Code export](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/testmd/running.md#code-export) |
 

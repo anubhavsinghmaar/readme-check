@@ -14,10 +14,20 @@
 Describe a flow in plain English. Kane CLI runs it in real Chrome from your terminal or your coding agent, returns pass or fail, and seals every run into a `.evidence` pack. When the work reaches QA, they open the pack and see every step, screenshot, console line and network call.
 
 <p>
-  <a href="https://www.npmjs.com/package/@testmuai/kane-cli"><img src="https://img.shields.io/npm/v/@testmuai/kane-cli" alt="npm version"></a>
-  <a href="https://www.npmjs.com/package/@testmuai/kane-cli"><img src="https://img.shields.io/npm/dm/@testmuai/kane-cli" alt="npm downloads"></a>
-  <a href="https://github.com/LambdaTest/kane-cli/blob/main/LICENSE"><img src="https://img.shields.io/badge/repo%20license-Apache--2.0-blue" alt="Repo license: Apache-2.0"></a>
-  <a href="https://discord.gg/SqVMtNeWEf"><img src="https://img.shields.io/badge/Discord-Join%20us-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://www.npmjs.com/package/@testmuai/kane-cli"><img src="https://img.shields.io/npm/v/@testmuai/kane-cli?color=0075DE&label=npm" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/@testmuai/kane-cli"><img src="https://img.shields.io/npm/dm/@testmuai/kane-cli?color=1E9E6A&label=downloads" alt="npm downloads"></a>
+  <a href="https://github.com/LambdaTest/kane-cli/releases"><img src="https://img.shields.io/github/release-date/LambdaTest/kane-cli?color=0075DE&label=last%20release" alt="Last release"></a>
+  <a href="#or-let-your-coding-agent-set-it-up"><img src="https://img.shields.io/badge/works%20with-Claude%20Code%20%C2%B7%20Cursor%20%C2%B7%20Codex-141413" alt="Works with Claude Code, Cursor and Codex"></a>
+  <a href="https://github.com/LambdaTest/kane-cli/blob/main/LICENSE"><img src="https://img.shields.io/badge/repo%20license-Apache--2.0-6E7781" alt="Repo license: Apache-2.0"></a>
+</p>
+
+<p>
+  <a href="https://www.testmuai.com/kane-cli/"><img src="https://img.shields.io/badge/Kane%20CLI-0075DE?style=for-the-badge&logoColor=white" alt="Kane CLI website"></a>
+  <a href="https://www.testmuai.com/support/docs/kane-cli-introduction/"><img src="https://img.shields.io/badge/Docs-141413?style=for-the-badge" alt="Docs"></a>
+  <a href="https://evidence.lambdatest.com"><img src="https://img.shields.io/badge/Evidence%20viewer-1E9E6A?style=for-the-badge" alt="Evidence viewer"></a>
+  <a href="https://x.com/kane_cli"><img src="https://img.shields.io/badge/Follow%20on%20X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Follow Kane CLI on X"></a>
+  <a href="https://www.linkedin.com/company/testmu-ai"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="TestMu AI on LinkedIn"></a>
+  <a href="https://discord.gg/SqVMtNeWEf"><img src="https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join our Discord"></a>
 </p>
 
 <sub>FEATURED ON</sub>
@@ -28,24 +38,34 @@ Describe a flow in plain English. Kane CLI runs it in real Chrome from your term
   <a href="https://www.agenthunter.io/?utm_source=badge&utm_medium=embed&utm_campaign=Kane%20CLI%20by%20TestMu%20AI"><img src="assets/featured-agenthunter.svg" alt="Kane CLI, Featured AI Agent on AgentHunter" height="44"></a>
 </p>
 
-<!-- The same three badges and links as the "Featured on" row on testmuai.com/kane-cli. Product Hunt and Aback Launch serve their own badge images. AgentHunter only offers an HTML badge, which GitHub strips, so assets/featured-agenthunter.svg recreates it with AgentHunter's logo. Commit that file with the README. -->
-
-[Website](https://www.testmuai.com/kane-cli/) · [Docs](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/README.md) · [Quickstart](#quickstart) · [Evidence viewer](https://evidence.lambdatest.com)
-
-<!-- [TO CONFIRM] Once the sealed sample pack (plan M7) is hosted, change "Evidence viewer" to "See a sample pack" and link https://evidence.lambdatest.com/?pack=<URL-encoded pack link>, so visitors without a pack see a real run. -->
-
-⭐ A star helps other developers, and their coding agents, find Kane CLI.
+⭐ _A star helps other developers, and their coding agents, find Kane CLI._
 
 </div>
 
-> **[VIDEO · TO PRODUCE · about 30 s · autoplay muted loop]** The handoff film, the same three chapters as the website hero.
-> 1. **Describe it (about 10 s).** Claude Code in the terminal. The developer types "Check guest checkout on the playground before I open the PR." The agent calls Kane CLI and Chrome runs the flow beside it.
-> 2. **Kane runs it (about 8 s).** The result box prints `PASSED · 12 steps · 1m 41s`, then the pack is sealed: `e7c41f09.evidence`.
-> 3. **QA opens it (about 12 s).** A second screen labelled "QA" drops the pack into evidence.lambdatest.com. The steps play back and the last frame shows 4 of 4 checks passed.
->
-> Upload the MP4 through the GitHub web editor so it gets a `github.com/user-attachments/assets/...` URL, then embed it with `<video src="..." controls muted></video>`. Add a GIF fallback of the first 15 seconds for places that do not play video.
+<!-- The Featured on row uses the same three badges and links as testmuai.com/kane-cli. AgentHunter only offers an HTML badge, which GitHub strips, so assets/featured-agenthunter.svg recreates it from AgentHunter's own logo. -->
+
+<p align="center">
+  <img src="assets/placeholders/handoff-film.svg" alt="Placeholder for the handoff film: Claude Code asks Kane CLI to check guest checkout, Chrome runs it, the run is sealed into e7c41f09.evidence, and QA opens the pack" width="100%">
+</p>
+
+<!-- [VIDEO · TO PRODUCE] Replace the placeholder with the handoff film (about 30 s, the same three chapters as the website hero). Upload the MP4 through the GitHub web editor to get a github.com/user-attachments/assets/... URL, then embed it with <video src="..." controls muted></video>. Add a GIF of the first 15 seconds as a fallback. -->
 
 ---
+
+## Why Kane CLI
+
+<table>
+  <tr>
+    <td width="33%" valign="top"><h3>🌐 Real Chrome</h3>Runs your flow in a real browser, on your machine or in CI, the way a user would.</td>
+    <td width="33%" valign="top"><h3>💬 Plain English</h3>Describe the flow like you'd tell a teammate. No selectors to write, no scripts to maintain.</td>
+    <td width="33%" valign="top"><h3>✅ Checked, not guessed</h3>Every check you ask for passes or fails. A failed run names the step and why.</td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top"><h3>📦 A pack for every run</h3>Pass or fail, the run is sealed into a <code>.evidence</code> pack that QA can open without installing anything.</td>
+    <td width="33%" valign="top"><h3>🤖 Made for coding agents</h3>JSON output, exit codes and a ready skill, so your agent checks its own work before it says done.</td>
+    <td width="33%" valign="top"><h3>🔁 Replays from a recording</h3>Save a flow as a <code>_test.md</code>. Later runs replay from its recording, on your machine or in CI.</td>
+  </tr>
+</table>
 
 ## What you type. What you get back.
 
@@ -122,21 +142,58 @@ A green check says pass. It doesn't say what passed. With Kane CLI in your loop,
 
 ```mermaid
 flowchart TD
-    A["You or your coding agent change the code"] --> B["Kane CLI runs the flow in real Chrome"]
-    B -->|"pass or fail, every run is sealed"| C[("e7c41f09.evidence")]
-    C --> D["The PR or ticket carries the run"]
-    D --> E["QA opens the pack"]
-    E -->|"approved"| F["Merge"]
-    E -.->|"QA finds a bug and sends a failing run back"| A
+    subgraph LOOP["🔁 Your loop"]
+        direction TB
+        A["🧑‍💻 You or 🤖 your coding agent<br/>change the code"]
+        B["⚡ <b>kane-cli run</b><br/>the flow in plain English"]
+        C["🌐 Real Chrome<br/>clicks, types and checks"]
+        A --> B --> C
+    end
+    C --> D{"Every check<br/>passed?"}
+    D -->|"✅ pass · exit 0"| E[("📦 e7c41f09.evidence<br/>sealed pack")]
+    D -->|"❌ fail · exit 1"| X[("📦 Failed pack<br/>the failing step and why")]
+    X -->|"your agent reads the failing step,<br/>fixes the code and runs it again"| A
+    E --> F
+    subgraph HANDOFF["🤝 The handoff"]
+        direction TB
+        F["🔀 PR · ticket · Test Manager<br/>the run travels with the work"]
+        G["🔍 <b>QA opens the pack</b><br/>steps · screenshots · console · network"]
+        F --> G
+    end
+    G -->|"👍 approved"| H["🚀 Merge"]
+    G -.->|"🐞 QA finds a bug, runs it<br/>and sends the pack back"| A
+
+    classDef you fill:#F5F4F0,stroke:#141413,stroke-width:2px,color:#141413
+    classDef kane fill:#0075DE,stroke:#005BB0,stroke-width:2px,color:#FFFFFF
+    classDef chrome fill:#E3F0FC,stroke:#0075DE,stroke-width:2px,color:#0B2540
+    classDef check fill:#FFFFFF,stroke:#0075DE,stroke-width:2px,color:#0B2540
+    classDef pass fill:#1E9E6A,stroke:#147D52,stroke-width:2px,color:#FFFFFF
+    classDef fail fill:#FFF1E6,stroke:#A45E10,stroke-width:2px,color:#5A3308
+    classDef hand fill:#FFF8E1,stroke:#A45E10,stroke-width:2px,color:#3D2A06
+    classDef qa fill:#141413,stroke:#141413,stroke-width:2px,color:#FFFFFF
+    classDef ship fill:#D1FAE5,stroke:#1E9E6A,stroke-width:2px,color:#064E3B
+    class A you
+    class B kane
+    class C chrome
+    class D check
+    class E pass
+    class X fail
+    class F hand
+    class G qa
+    class H ship
+    style LOOP fill:#0075DE0D,stroke:#0075DE,stroke-width:1px,stroke-dasharray:6 4,color:#0075DE
+    style HANDOFF fill:#A45E100D,stroke:#A45E10,stroke-width:1px,stroke-dasharray:6 4,color:#A45E10
 ```
 
 Every run, pass or fail, is sealed into one `.evidence` pack, a single file that holds:
 
-- **Every step** with a screenshot of what the browser showed, plus a copy that highlights what was clicked
-- **The console and the network**, matched to the step that caused them
-- **The verdict**, and on a failed run, the failing step, the error and the page state
-- **The test itself**, so anyone can see what was asked
-- **Who ran it, where and when**: browser, OS and screen size
+| | What's in the pack |
+|---|---|
+| 🖼️ | **Every step** with a screenshot of what the browser showed, plus a copy that highlights what was clicked |
+| 🧾 | **The console and the network**, matched to the step that caused them |
+| ⚖️ | **The verdict**, and on a failed run, the failing step, the error and the page state |
+| 📝 | **The test itself**, so anyone can see what was asked |
+| 🧭 | **Who ran it, where and when**: browser, OS and screen size |
 
 No QA team? The same pack is how you and your agent debug a failed run: open it at the failing step and read that step's console and network.
 
@@ -148,9 +205,14 @@ No QA team? The same pack is how you and your agent debug a failed run: open it 
 
 Opening a pack uploads nothing: the viewer reads the file inside the browser. A pack records who ran it, including their email, so share it the way you would share a test log. To look at a pack on your own machine, run `kane-cli evidence serve <pack>`.
 
-> **[GIF · TO PRODUCE · about 15 s]** `e7c41f09.evidence` is dropped onto evidence.lambdatest.com. The report opens, the steps play back with a screenshot each, the Logs panel shows the console and then the network, and it ends on "4 of 4 checks passed". Label it "Sample run".
+<p align="center">
+  <img src="assets/placeholders/evidence-viewer.svg" alt="Placeholder for a GIF of QA opening e7c41f09.evidence in evidence.lambdatest.com" width="100%">
+</p>
 
-**Nothing is hidden.** A pack is a plain zip:
+<!-- [GIF · TO PRODUCE · about 15 s] Replace the placeholder: e7c41f09.evidence is dropped onto evidence.lambdatest.com, the report opens, the steps play back with a screenshot each, the Logs panel shows the console and then the network, and it ends on "4 of 4 checks passed". Label it "Sample run". -->
+
+<details>
+<summary><b>Nothing is hidden: a pack is a plain zip</b></summary>
 
 ```text
 $ unzip -Z1 e7c41f09.evidence
@@ -169,6 +231,8 @@ tests/guest-checkout-3c9e1a7b/logs/0-network.har
 <sub>Sample listing. Paste the real listing from the M7 sample pack before publishing.</sub>
 
 The format is open: [LambdaTest/evidence-cli](https://github.com/LambdaTest/evidence-cli) has the spec and a validator. Where packs are saved, and the `evidence serve`, `validate` and `merge` commands: [evidence packs](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/evidence.md).
+
+</details>
 
 ### In CI: the verdict and the pack on every pull request
 
@@ -194,11 +258,19 @@ jobs:
           access-key: ${{ secrets.LT_ACCESS_KEY }}
 ```
 
-> **[IMAGE · TO CAPTURE from a real PR · about 900 px wide]** The Action's comment on a pull request: the verdict, the results table and the "open the evidence pack" link. Crop to the comment only.
+<p align="center">
+  <img src="assets/placeholders/pr-comment.svg" alt="Placeholder for a screenshot of the Kane CLI GitHub Action's verdict comment on a pull request" width="80%">
+</p>
+
+<!-- [IMAGE · TO CAPTURE from a real PR, about 900 px wide] Replace the placeholder with the Action's comment on a pull request: the verdict, the results table and the "open the evidence pack" link. Crop to the comment only. -->
 
 ## ⭐ Star Kane CLI
 
-> **[GIF · TO RECORD · 4 to 5 s · loops, no sound]** On this repo's page, the cursor moves to **Star** and clicks it, and the button turns to **Starred**. Record it on the real repo, after the About text and topics are updated, and show the real counts at the time. Do not stage the numbers. Export it as a GIF or animated WebP, about 900 px wide, and upload it through the GitHub web editor. GitHub does not autoplay or loop videos in a README, so an animated image is the way to get a silent loop.
+<p align="center">
+  <img src="assets/placeholders/star-kane-cli.svg" alt="Placeholder for a 4 to 5 second GIF: the cursor clicks Star on this repo and the button turns to Starred" width="80%">
+</p>
+
+<!-- [GIF · TO RECORD · 4 to 5 s · loops, no sound] Replace the placeholder: on this repo's page, the cursor moves to Star and clicks it, and the button turns to Starred. Record it on the real repo after the About text and topics are updated, with the real counts at the time. Do not stage the numbers. Export a GIF or animated WebP about 900 px wide and upload it through the GitHub web editor. GitHub does not autoplay or loop README videos, so an animated image is the way to get a silent loop. -->
 
 If Kane CLI saved you a re-test, star it from your own GitHub account. A star helps other developers, and their coding agents, find Kane CLI. There is a new release every few days, so choose **Watch → Custom → Releases** to get an email for each one. [Release notes →](https://github.com/LambdaTest/kane-cli/releases)
 
@@ -267,6 +339,65 @@ kane-cli run "Go to <url> and <what to do>, then verify <what should be true>" -
 
 The full agent guide is in the [Kane CLI skill](https://github.com/LambdaTest/kane-cli/blob/main/.claude/skills/kane-cli/SKILL.md). Install it with `npx @testmuai/kane-cli-skill`.
 
+## Where Kane CLI fits
+
+One run, started from wherever you work, gives you everything the next person needs.
+
+```mermaid
+flowchart LR
+    subgraph IN["▶️ Start a run from"]
+        direction TB
+        T["⌨️ Your terminal<br/><code>kane-cli run</code>"]
+        AG["🤖 Your coding agent<br/>Claude Code · Cursor · Codex"]
+        CI["⚙️ CI<br/>GitHub Action or any runner"]
+        MD["📝 A committed test<br/><code>kane-cli testmd run</code>"]
+        PRD["📄 Your requirements<br/><code>kane-cli context</code> → <code>design tests</code>"]
+    end
+    K(["⚡ <b>Kane CLI</b><br/>runs the flow in real Chrome"])
+    subgraph OUT["📤 Every run gives you"]
+        direction TB
+        V["✅ A verdict and an exit code<br/>0 pass · 1 fail"]
+        J["🧾 JSON your agent can read<br/><code>run_end</code> · <code>final_state</code>"]
+        P["📦 A sealed .evidence pack<br/>for QA, and for you"]
+        TM["🗂️ A run in Test Manager<br/>with a shareable link"]
+        PW["🎭 Playwright code on request<br/>Python or JavaScript"]
+    end
+    T --> K
+    AG --> K
+    CI --> K
+    MD --> K
+    PRD --> K
+    K --> V
+    K --> J
+    K --> P
+    K --> TM
+    K --> PW
+
+    classDef src fill:#F5F4F0,stroke:#141413,stroke-width:1.5px,color:#141413
+    classDef kane fill:#0075DE,stroke:#005BB0,stroke-width:2px,color:#FFFFFF
+    classDef out fill:#E8F7F0,stroke:#1E9E6A,stroke-width:1.5px,color:#0B3B27
+    classDef pack fill:#1E9E6A,stroke:#147D52,stroke-width:2px,color:#FFFFFF
+    class T,AG,CI,MD,PRD src
+    class K kane
+    class V,J,TM,PW out
+    class P pack
+    style IN fill:#1414130A,stroke:#6E7781,stroke-width:1px,stroke-dasharray:6 4,color:#6E7781
+    style OUT fill:#1E9E6A0D,stroke:#1E9E6A,stroke-width:1px,stroke-dasharray:6 4,color:#1E9E6A
+```
+
+### What teams use it for
+
+| Use case | How | Learn more |
+|---|---|---|
+| 🧪 Check a UI change before you open the PR | Run the flow yourself, or ask your coding agent to | [Quickstart](#quickstart) |
+| 🚦 Gate every pull request | The GitHub Action fails the check when the flow breaks | [GitHub Action](https://github.com/LambdaTest/kane-cli/blob/main/integrations/github-action/kane-cli-browser-run/README.md) |
+| 🤝 Hand QA the run | Share the `.evidence` pack or the Test Manager link | [Evidence packs](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/evidence.md) |
+| 🌍 Smoke-test a preview deploy | Point the Action at the preview URL your deploy reports | [preview-deployment.yml](https://github.com/LambdaTest/kane-cli/blob/main/integrations/github-action/kane-cli-browser-run/examples/preview-deployment.yml) |
+| 🔁 Keep regression flows | Commit `_test.md` files and run them as one suite with `kane-cli testrun run` | [test.md files](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/testmd/overview.md) |
+| 📄 Turn a PRD into tests and coverage | `kane-cli context` → `design tests` → `cover` | [Assurance](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/assurance/overview.md) |
+| 📱 Test a mobile app | Run the same kind of flow on an iOS Simulator or Android Emulator | [Mobile](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/mobile/overview.md) |
+| 🎭 Get Playwright code | Export a recorded flow to Python or JavaScript with `kane-cli testmd export` | [test.md files](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/testmd/overview.md) |
+
 ## Keep the flows you trust
 
 `kane-cli run` is one-shot. For flows you want to keep, such as login, checkout and smoke tests, write a `_test.md` file.
@@ -297,15 +428,7 @@ Verify the order total matches the cart.
 kane-cli testmd run guest-checkout_test.md
 ```
 
-Every `testmd run` saves its pack to `.testmuai/evidence/` in your project. Run a whole folder as one suite, with one pack for the batch, using `kane-cli testrun run`. More: [test.md files](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/testmd/overview.md) · [batch runs](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/testrun.md).
-
-## What else it does
-
-- **Playwright export.** Turn a recorded flow into Playwright code in Python or JavaScript: `kane-cli testmd export`.
-- **Requirements to coverage.** Turn a PRD into requirement-linked tests and see what is proven and what is still owed: [assurance](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/assurance/overview.md).
-- **Mobile apps.** Run the same kind of flow on an iOS Simulator or Android Emulator: [mobile](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/mobile/overview.md).
-- **Variables and secrets.** Use `{{name}}` in a flow and mask secrets in logs: [variables](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/variables-and-context.md).
-- **Test Manager.** Every run uploads to Test Manager by default, with its pack attached: [Test Manager integration](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/test-manager-integration.md).
+Every `testmd run` saves its pack to `.testmuai/evidence/` in your project. Variables and secrets (`{{name}}`, masked in logs) are covered in [variables](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/variables-and-context.md), and Test Manager uploads in [Test Manager integration](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/test-manager-integration.md).
 
 ## What builders say
 
@@ -339,9 +462,9 @@ Public posts by people outside TestMu AI, each linked to the original. Hackathon
 
 | | Project | What it does |
 |---|---|---|
-| 1st | [demo.studio](https://github.com/SamFelix03/demo.studio) by Sam Felix | Give it a URL, a goal and the on-screen actions, and it returns a narrated demo video of the live product. Kane CLI is the hands on the page. |
-| 2nd | [GuardianKane](https://github.com/18Abhinav07/adventures-with-kane) by Abhinav | A verification loop around Claude Code "that refuses to let 'done' mean 'I say it's done'": a task counts as done only after Kane CLI replays its test in a real browser. |
-| 3rd | [KANE vs. ABLE](https://github.com/christinelall/kane-vs-able) by Christine Lall | One AI builds an escape room. Kane CLI has to escape it in a real browser to prove it can be solved. |
+| 🥇 | [**demo.studio**](https://github.com/SamFelix03/demo.studio) by Sam Felix | Give it a URL, a goal and the on-screen actions, and it returns a narrated demo video of the live product. Kane CLI is the hands on the page. |
+| 🥈 | [**GuardianKane**](https://github.com/18Abhinav07/adventures-with-kane) by Abhinav | A verification loop around Claude Code "that refuses to let 'done' mean 'I say it's done'": a task counts as done only after Kane CLI replays its test in a real browser. |
+| 🥉 | [**KANE vs. ABLE**](https://github.com/christinelall/kane-vs-able) by Christine Lall | One AI builds an escape room. Kane CLI has to escape it in a real browser to prove it can be solved. |
 
 More entries: [Signed Off](https://github.com/PhiBao/signed-off) · [LENS](https://github.com/Enoch208/lens) · [mutiny](https://github.com/sneg55/mutiny) · [Pactora](https://github.com/mrnetwork0001/Pactora) · [Playtest Studio](https://github.com/Jiyungi/playtest-studio) (Kane CLI Hack Day, San Francisco)
 
@@ -358,10 +481,10 @@ The CLI's source is not in this repo, but most of what makes Kane CLI useful to 
 
 Start with [good first issues](https://github.com/LambdaTest/kane-cli/labels/good%20first%20issue) and read [CONTRIBUTING.md](https://github.com/LambdaTest/kane-cli/blob/main/CONTRIBUTING.md). <!-- [TO CONFIRM] Before publishing: label the ten good first issues, add the recipes/ folder, and ship the CONTRIBUTING.md rewrite that accepts recipes and Action examples (plan section 6). The label has 0 issues today. -->
 
-- **Questions and ideas:** [Discussions](https://github.com/LambdaTest/kane-cli/discussions) and [Discord](https://discord.gg/SqVMtNeWEf) <!-- [TO CONFIRM] Turn on Discussions before publishing. -->
-- **Bugs and feature requests:** [GitHub issues](https://github.com/LambdaTest/kane-cli/issues/new/choose)
-- **Security:** [SECURITY.md](https://github.com/LambdaTest/kane-cli/blob/main/SECURITY.md)
-- **What changed:** [release notes](https://github.com/LambdaTest/kane-cli/releases) · [CHANGELOG.md](https://github.com/LambdaTest/kane-cli/blob/main/CHANGELOG.md)
+- 💬 **Questions and ideas:** [Discussions](https://github.com/LambdaTest/kane-cli/discussions) and [Discord](https://discord.gg/SqVMtNeWEf) <!-- [TO CONFIRM] Turn on Discussions before publishing. -->
+- 🐛 **Bugs and feature requests:** [GitHub issues](https://github.com/LambdaTest/kane-cli/issues/new/choose)
+- 🔒 **Security:** [SECURITY.md](https://github.com/LambdaTest/kane-cli/blob/main/SECURITY.md)
+- 📝 **What changed:** [release notes](https://github.com/LambdaTest/kane-cli/releases) · [CHANGELOG.md](https://github.com/LambdaTest/kane-cli/blob/main/CHANGELOG.md)
 
 <!-- [TO CONFIRM] Add "A maintainer replies to every new issue within one business day." only once a named rotation is staffed (plan D3). -->
 
@@ -391,6 +514,8 @@ Start with [good first issues](https://github.com/LambdaTest/kane-cli/labels/goo
 ---
 
 <div align="center">
+
+<img src="assets/kane-cli-icon.svg" alt="" width="36">
 
 **Test in your loop. Hand QA the run.**
 

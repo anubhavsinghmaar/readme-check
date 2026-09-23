@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="506" viewBox="0 0 900 506" role="img" aria-label="Star Kane CLI on GitHub">
+<title>Star Kane CLI on GitHub</title>
+<rect x="2" y="2" width="896" height="502" rx="18" fill="#2f81f7" fill-opacity="0.07" stroke="#2f81f7" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="10 8"/>
+<rect x="28" y="26" width="321.4" height="30" rx="15" fill="#d29922" fill-opacity="0.16" stroke="#d29922" stroke-opacity="0.6"/>
+<text x="42" y="46" fill="#d29922" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="700" letter-spacing="0.5">GIF · 4 TO 5 S LOOP · TO RECORD</text>
+<path transform="translate(404.0,136.16) scale(3.8)" d="M12 2.3l2.95 6.2 6.8.95-4.95 4.7 1.2 6.75L12 17.7l-6 3.2 1.2-6.75L2.25 9.45l6.8-.95z" fill="#d29922" fill-opacity="0.9" stroke="#d29922" stroke-width="0.8" stroke-linejoin="round"/>
+<text x="450.0" y="293.47999999999996" text-anchor="middle" fill="#2f81f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700">Star Kane CLI on GitHub</text>
+<text x="450.0" y="333.47999999999996" text-anchor="middle" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19">The cursor clicks Star on this repo and the button turns to Starred.</text>
+<text x="450.0" y="363.47999999999996" text-anchor="middle" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19">Record it on the real repo, with the real counts.</text>
+</svg>

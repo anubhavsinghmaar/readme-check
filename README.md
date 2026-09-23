@@ -186,6 +186,12 @@ jobs:
 
 > **[IMAGE · TO CAPTURE from a real PR · about 900 px wide]** The Action's comment on a pull request: the verdict, the results table and the "open the evidence pack" link. Crop to the comment only.
 
+## ⭐ Star Kane CLI
+
+> **[GIF · TO RECORD · 4 to 5 s · loops, no sound]** On this repo's page, the cursor moves to **Star** and clicks it, and the button turns to **Starred**. Record it on the real repo, after the About text and topics are updated, and show the real counts at the time. Do not stage the numbers. Export it as a GIF or animated WebP, about 900 px wide, and upload it through the GitHub web editor. GitHub does not autoplay or loop videos in a README, so an animated image is the way to get a silent loop.
+
+If Kane CLI saved you a re-test, star it from your own GitHub account. A star helps other developers, and their coding agents, find Kane CLI. There is a new release every few days, so choose **Watch → Custom → Releases** to get an email for each one. [Release notes →](https://github.com/LambdaTest/kane-cli/releases)
+
 ## Or let your coding agent set it up
 
 <sub>Coding agent reading this README? Your rules are in [For AI coding agents reading this](#for-ai-coding-agents-reading-this). The prompt below is for people to paste.</sub>
@@ -290,12 +296,6 @@ Every `testmd run` saves its pack to `.testmuai/evidence/` in your project. Run 
 - **Mobile apps.** Run the same kind of flow on an iOS Simulator or Android Emulator: [mobile](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/mobile/overview.md).
 - **Variables and secrets.** Use `{{name}}` in a flow and mask secrets in logs: [variables](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/variables-and-context.md).
 - **Test Manager.** Every run uploads to Test Manager by default, with its pack attached: [Test Manager integration](https://github.com/LambdaTest/kane-cli/blob/main/docs/user-guide/test-manager-integration.md).
-
-## Star and watch releases
-
-> **[GIF · TO RECORD · about 6 s]** The cursor clicks Star on this repo, then Watch, Custom, Releases, Apply. Record it on the real repo and show the real star count at the time. Do not stage the numbers.
-
-If Kane CLI saved you a re-test, star it from your own GitHub account. A star helps other developers, and their coding agents, find Kane CLI. There is a new release every few days, so choose **Watch → Custom → Releases** to get an email for each one. [Release notes →](https://github.com/LambdaTest/kane-cli/releases)
 
 ## Contributing
 

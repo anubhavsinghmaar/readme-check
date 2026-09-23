@@ -9,7 +9,7 @@
   </picture>
 </a>
 
-### A pass you can prove, a fail you can fix
+### Ship with evidence your team can trust
 
 An AI testing agent for developers, QA engineers and coding agents. Describe a user flow in plain English, and every result, pass or fail, comes back with an evidence file anyone can open.
 
@@ -514,7 +514,7 @@ Start with [good first issues](https://github.com/LambdaTest/kane-cli/labels/goo
 
 <a href="https://www.testmuai.com/kane-cli/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kane-cli-logo-dark.svg"><img src="assets/kane-cli-logo-light.svg" alt="Kane CLI" width="180"></picture></a>
 
-**A pass you can prove, a fail you can fix**
+**Ship with evidence your team can trust**
 
 [⭐ Star Kane CLI](https://github.com/LambdaTest/kane-cli) · [Get started](#quickstart) · [Open the evidence viewer](https://evidence.lambdatest.com)
 

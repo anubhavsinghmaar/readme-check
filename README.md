@@ -1,9 +1,13 @@
 <!-- Render copy for review. Relative links point to LambdaTest/kane-cli so they work here. -->
 <div align="center">
 
-<!-- [LOGO · TO PRODUCE] The "> KANE CLI" pixel wordmark from the website, as a <picture> with light and dark versions, about 360 px wide, alt="Kane CLI". Files: assets/kane-cli-logo-light.svg and assets/kane-cli-logo-dark.svg -->
-
-# Kane CLI
+<a href="https://www.testmuai.com/kane-cli/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/kane-cli-logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/kane-cli-logo-light.svg">
+    <img src="assets/kane-cli-logo-light.svg" alt="Kane CLI" width="420">
+  </picture>
+</a>
 
 ### Test in your loop. Hand QA the run.
 

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="How it works, about 30 seconds">
+<title>How it works, about 30 seconds</title>
+<rect x="2" y="2" width="1276" height="716" rx="18" fill="#2f81f7" fill-opacity="0.07" stroke="#2f81f7" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="10 8"/>
+<rect x="28" y="26" width="199.2" height="30" rx="15" fill="#2f81f7" fill-opacity="0.16" stroke="#2f81f7" stroke-opacity="0.6"/>
+<text x="42" y="46" fill="#2f81f7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="700" letter-spacing="0.5">VIDEO · TO PRODUCE</text>
+<circle cx="640.0" cy="259.2" r="54" fill="#2f81f7" fill-opacity="0.15" stroke="#2f81f7" stroke-width="3"/><path d="M 624.0 233.2 L 668.0 259.2 L 624.0 285.2 Z" fill="#2f81f7"/>
+<text x="640.0" y="417.59999999999997" text-anchor="middle" fill="#2f81f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="34" font-weight="700">How it works, about 30 seconds</text>
+<text x="640.0" y="457.59999999999997" text-anchor="middle" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21">You describe a user flow. Kane CLI tests it in real Chrome, like a user.</text>
+<text x="640.0" y="487.59999999999997" text-anchor="middle" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21">The result is saved as an .evidence file that anyone can open.</text>
+<rect x="307.8" y="656" width="174.0" height="36" rx="18" fill="#2f81f7" fill-opacity="0.12" stroke="#2f81f7" stroke-opacity="0.5"/>
+<text x="394.8" y="680" text-anchor="middle" fill="#2f81f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="600">1 · Describe it</text>
+<rect x="497.8" y="656" width="229.2" height="36" rx="18" fill="#2f81f7" fill-opacity="0.12" stroke="#2f81f7" stroke-opacity="0.5"/>
+<text x="612.4" y="680" text-anchor="middle" fill="#2f81f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="600">2 · Kane CLI tests it</text>
+<rect x="743.0" y="656" width="229.2" height="36" rx="18" fill="#2f81f7" fill-opacity="0.12" stroke="#2f81f7" stroke-opacity="0.5"/>
+<text x="857.6" y="680" text-anchor="middle" fill="#2f81f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="600">3 · Open the evidence</text>
+</svg>

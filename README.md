@@ -130,7 +130,7 @@ kane-cli login --oauth
 kane-cli run "Go to https://ecommerce-playground.lambdatest.io and verify the search box is visible"
 ```
 
-1. **Install.** You need Google Chrome and, for npm, Node.js 20 or later. npm is shown here. Homebrew and a shell script are below.
+1. **Install.** You need Google Chrome and, for npm, Node.js 18 or later. npm is shown here. Homebrew and a shell script are below.
 2. **Sign in.** `kane-cli login --oauth` opens your browser. Kane CLI is free to install. It needs a TestMu AI account, which is free to create, and each run uses credits from that account. `kane-cli balance` shows what you have left. <!-- [TO CONFIRM] the current new-account credit offer, before quoting it here -->
 3. **Run a flow.** You get pass or fail, an exit code (`0` pass, `1` fail), and a sealed `.evidence` pack. After a passing run in a terminal, Kane CLI asks `View evidence in browser? (y/N)`. Answer `y` and the pack opens in the viewer.
 
